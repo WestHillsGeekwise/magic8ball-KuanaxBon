@@ -1,1 +1,25 @@
 /*use this file to style your project however you like*/
+body
+{
+  background-color: black;
+  color: white;
+}
+button
+{
+  background-color:cyan;
+  color:Black;
+}
+.container
+{
+  text-align: center;
+}
+input
+{
+  display:block;
+  margin: auto;
+}
+img
+{
+  display: block;
+  margin: auto;
+}

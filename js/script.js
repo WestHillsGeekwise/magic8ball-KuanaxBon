@@ -86,12 +86,16 @@ function change()
     {
       document.getElementById("image").src = "http://planetoftheweb.com/i/8ball/19.png";
     }
-
+    var theQuestion = document.getElementById('question').value;
+    document.getElementById("previous").innerHTML = theQuestion;
 }
 function resetdoc()
 {
   document.getElementById("question").value = "";
 }
+
+askButton.addEventListener("click", change);
+askButton.addEventListener("click", resetdoc);
 
 askButton.addEventListener("click", change);
 askButton.addEventListener("click", resetdoc);

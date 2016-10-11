@@ -1,7 +1,8 @@
 /*use this file to style your project however you like*/
 body
 {
-  background-color: black;
+  background-color: #004020;
+  background-image: url("../images/background.jpg");
   color: white;
 }
 button
@@ -11,7 +12,10 @@ button
 }
 .container
 {
+  background-color: black;
   text-align: center;
+  padding-top: 5px;
+  opacity: 0.9;
 }
 input
 {
@@ -22,4 +26,22 @@ img
 {
   display: block;
   margin: auto;
+}
+.answerWrapper
+{
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+	position: fixed;
+	right: 1em;
+	bottom: 1em;
+	z-index: 1;
+  opacity: 0.3;
+}
+#previous
+{
+  width: 10em;
+  height: 10em;
 }
